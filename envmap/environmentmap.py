@@ -4,7 +4,7 @@ from copy import deepcopy
 import numpy as np
 from scipy.ndimage.interpolation import map_coordinates, zoom
 
-from hdrio import imread
+from matplotlib.pyplot import imread
 
 from .tetrahedronSolidAngle import tetrahedronSolidAngle
 from .projections import *
